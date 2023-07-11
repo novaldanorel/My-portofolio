@@ -1,0 +1,67 @@
+*, html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+
+body {
+    background: #778899;
+}
+
+.container {
+    text-align: center;
+}
+
+.logo {
+    text-align: center;
+    color: #00FFFF;
+    justify-content: center;
+}
+
+p {
+    color : #eaeaea; 
+    
+}
+
+header {
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+nav ul {
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: #7FFFD4;
+}
+
+.hobby {
+    color: yellow;
+}
+
+li {
+    list-style-type: none;
+    padding: 10px;
+}
+
+h2 {
+    text-align: center;
+    color: #eaeaea;
+    display: block;
+    font-size: 1.5em;
+}
+
+span {
+    color: #ffc107;
+}
+
+p {
+    text-align: center;
+    color: #9cbfdd;
+}
+
