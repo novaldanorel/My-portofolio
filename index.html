@@ -5,12 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="images.png">
-    <title>My portofolio</title>
+    <title>My Portfolio</title>
 </head>
 <body>
     <div class="container">
-      <h1 class="logo">MY PORTOFOLIO</h1>
-      <P>web portofolio</P>
+      <h1 class="logo">MY PORTFOLIO</h1>
+      <P>web portfolio</P>
     </div>
     <header>
         <nav>
@@ -28,6 +28,22 @@
       Web & Game
       <span>Developor</span>
     </h2>
-    <p id="hari">hari hari yang sangat cerah😀</p>
+    <p>Hari <span id="hari"></span> dengan suasana yang menyenangkan 😊</p>
+    <script>
+        // Mendapatkan tanggal saat ini
+        const tanggalSekarang = new Date();
+    
+        // Array nama-nama hari
+        const namaHari = ["Minggu", "Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu"];
+    
+        // Mendapatkan indeks hari (0-6)
+        const indeksHari = tanggalSekarang.getDay();
+    
+        // Mendapatkan nama hari
+        const namaHariIni = namaHari[indeksHari];
+    
+        // Menampilkan nama hari di elemen dengan id "hari"
+        document.getElementById("hari").textContent = namaHariIni;
+    </script>    
 </body>
 </html>
